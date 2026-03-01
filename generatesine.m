@@ -1,4 +1,4 @@
-function [sineSample, sineWave] = generateSine(afreq)
+function [sineSample, sineWave, t] = generateSine(afreq)
 
 %Sampling Frequency, using the Nyquist Theorem and accounting for effects
 %of DAC low pass filter
