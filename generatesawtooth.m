@@ -1,4 +1,4 @@
-function [sawtoothSample, sawtoothFunction] = generateSawtooth(afreq)
+function [sawtoothSample, sawtoothFunction, t] = generateSawtooth(afreq)
 fs = 44100;
 %afreq = 261.63; %C4 sample
 t = 0:1/fs:0.5; % Time vector for 5 second duration
